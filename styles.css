@@ -1,0 +1,102 @@
+/* Seccion de colores */
+:root {
+  --bg-primary: #a8df8e;
+  /* 60% */
+  --bg-secondary: #f3fde8;
+  /* 30% */
+  --bg-acentos: #F0B86E;
+  /* 10% */
+}
+
+/* Configuracion Global */
+html {
+  font-size: 62.5%; /* 10px / 16rem */
+}
+
+body {
+  font-family: sans-serif;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  color: #1a1919c6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+/* Seccion principal */
+.contenedor {
+  background: linear-gradient(160deg, rgba(0, 0, 0, 0.45) 30%, rgba(167, 223, 0, 0.203) 80%), url(Img/Background.jpg) center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizzara {
+  max-width: 80%;
+  width: 85%;
+  background: #fffffff7;
+  height: 85%;
+  margin: 0 auto;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  box-shadow: 0 1.6rem 1.8rem rgba(0, 0, 0, 0.35);
+}
+
+/* Seccion de navegacion principal */
+.navegacion {
+  padding-top: 1.4rem;
+  text-align: center;
+}
+
+.navegacion__titulo {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.usuario {
+  margin-top: .6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+}
+
+.usuario__img {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.usuario__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto;
+  opacity: .4;
+  margin-top: 1.2rem;
+}
